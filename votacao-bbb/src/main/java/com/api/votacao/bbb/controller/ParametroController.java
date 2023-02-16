@@ -14,7 +14,7 @@ public class ParametroController {
 
     private final ParametroRepository repository;
 
-    public ParametroController(ParametroRepository parametroRepository, ParametroRepository repository) {
+    public ParametroController(ParametroRepository repository) {
         this.repository = repository;
     }
 
