@@ -14,6 +14,7 @@ public class VotacaoService {
     private final KafkaTemplate<Object, Object> template;
 
     public void adicionarEvento(ParticipanteModel participante){
+
         template.send(TOPICO_VOTACAO, participante);
     }
 }
