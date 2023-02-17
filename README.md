@@ -46,7 +46,7 @@ http://localhost:8080/api/participante/
 
 | Rest  | URL             |Função |
 |-------|-----------------| ------- |
-| POST  | /votacao      | Votar no Participante |
+| POST  | /votacao     | Votar no Participante |
 
 
 
